@@ -1,0 +1,91 @@
+html {
+    height: 100%;
+    /*This will allow our h100 class in vertical centering to work*/
+}
+
+body {
+    background: url('/media/homepage_background_image.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    height: calc(100vh - 164px);
+    color: #555;
+    font-family: 'Lato';
+}
+
+/* from Bulma another css framework like bootstrap */
+/* This ensures whenever we use fontawesome icons they will always stay 
+perfectly centered and have a consistent size unless we manually change it*/
+.icon {
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+/* will be used to maintain consistency with the uppercase font of the logo */
+.logo-font {
+    text-transform: uppercase;
+}
+
+/* So the logo only takes up as much space as the text requires and no more */
+.main-logo-link {
+    width: fit-content;
+}
+
+/*Styling for buttons so they match the theme of the shop now button on the 
+homepage */
+.shop-now-button {
+    background: black;
+    color: white;
+    min-width: 260px;
+}
+
+.btn-black {
+    background: black;
+    color: white;
+}
+
+.shop-now-button:hover,
+.shop-now-button:active,
+.shop-now-button:focus,
+.btn-black:hover,
+.btn-black:active,
+.btn-black:focus {
+    background: #222;
+    color: white;
+}
+/*The last comment applies until this point*/
+/*Allows us to have both primary and secondary call to action styling
+on all site buttons. Giving a consistent user experience*/
+.text-black {
+    color: #000 !important;
+}
+
+.border-black {
+    border: 1px solid black !important;
+}
+
+/* -------------------------------- Media Queries */
+
+/* Slightly larger container on xl screens */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 80%;
+  }
+}
+
+/* fixed top navbar only on medium and up */
+@media (min-width: 992px) {
+    .fixed-top-desktop-only {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+
+    /* To push the body down to the bottom of the main page header */
+    .header-container {
+        padding-top: 164px;
+    }
+}
