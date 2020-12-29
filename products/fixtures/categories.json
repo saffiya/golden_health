@@ -1,0 +1,98 @@
+[
+    {
+        "pk": 1,
+        "model": "products.category",
+        "fields": {
+            "name": "immune_boosting",
+            "friendly_name": "Immune Boosting"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "products.category",
+        "fields": {
+            "name": "sleep_enhancing",
+            "friendly_name": "Sleep Enhancing"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "products.category",
+        "fields": {
+            "name": "energy_enhancing",
+            "friendly_name": "Energy Enhancing"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "products.category",
+        "fields": {
+            "name": "dessert",
+            "friendly_name": "Dessert"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "products.category",
+        "fields": {
+            "name": "matcha",
+            "friendly_name": "Matcha"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "products.category",
+        "fields": {
+            "name": "teapots",
+            "friendly_name": "Teapots"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "products.category",
+        "fields": {
+            "name": "teacups",
+            "friendly_name": "Teacups"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "products.category",
+        "fields": {
+            "name": "accessories",
+            "friendly_name": "Accessories"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "products.category",
+        "fields": {
+            "name": "matcha_essentials",
+            "friendly_name": "Matcha Essentials"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "products.category",
+        "fields": {
+            "name": "clearence",
+            "friendly_name": "Clearence"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "products.category",
+        "fields": {
+            "name": "deals",
+            "friendly_name": "Deals"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "products.category",
+        "fields": {
+            "name": "new_arrivals",
+            "friendly_name": "New Arrivals"
+        }
+    }
+]
