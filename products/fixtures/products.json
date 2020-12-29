@@ -1,0 +1,499 @@
+[
+    {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5382950001",
+            "name":"Hibiscus",
+            "decription_title":"Supercharge your immune system and fight the effects of aging with the highest antioxidant in the world.",
+            "description":"A 2010 study of 3199 foods ranked the world's beverages in antioxidant content. The winner with 32.1% more antioxidant power than green tea matcha, is Loose Leaf Hibiscus Tea. The tea is also scientifically proven to help fight heart disease and reduce cholestrol.", 
+            "how_to_use":"can be enjoyed hot or cold. Hot: Place 1-1.5 tsp of tea per 8oz/200ml of water. Heat water to 205F/95C and steep for 4-5 minutes depending on taste; the longer you brew the tangier the taste. Cold: Once heated place over ice to drink cold. For taste you can add cinnamon when brewing or sugar to sweeten.",
+            "price": 9,
+            "category": 1,
+            "rating": 5,
+            "image_url": "https://pixabay.com/photos/hibiscus-herbal-tea-3284431/",
+            "image": "hibiscus_tea.jpg"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5382950002",
+            "name":"Olive Leaf",
+            "decription_title":"Research shows that components of the olive leaf may have benefits for hypertension, cardiovascular disease, diabetes and hyperlipidaemia.",
+            "description":"A 2018 study showed beneficial effects of continuous intake of the tea on haematological parameters, the red blood cell count, hemoglobin and hematorcrit increased significantly against the other tea groups at 6 and 12 weeks of intervention. Not suitable for children.",
+            "how_to_use":"Steep 1 tablespoon of the dried olive leaves in hot water for 10 minutes; have with organic honey or lemon if too bitter ",
+            "price": 9,
+            "category": 1,
+            "rating": 4.9,
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/91YJd4tWalL._AC_SX569_.jpg",
+            "image": "olive_leaf.jpg"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5382950003",
+            "name":"Elderberry",
+            "decription_title": "Elderberries have long been known as one of the kings of herbs when it comes to cold and flu season.",
+            "description":"Studies have shown it has strong anti-bacterial properties and stimulate the immune system, as well as to be effective in treating strep and various strands of the flu",
+            "how_to_use":"Steep 1.5 tablespoons of the dried elderbery in 350ml of hot water for 5 minutes",
+            "price": 10,
+            "category": 1,
+            "rating": 5,
+            "image_url": "https://commons.wikimedia.org/wiki/File:Sunmaid-Raisin-Pile.jpg",
+            "image": "elderberry.jpg"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5382950004",
+            "name":"Rose Hip",
+            "decription_title":"Rose hips are extremely high in Vitamin C, containing more than citrus fruits, making it perfect for boosting the immune system.",
+            "description":"They also contain Vitamins A, B, and D, and as well as flavonoids. Flavonoids help the body to better assimilate Vitamin C, making rosehips a perfect pairing for elderberries and other herbs that contain Vitamin C.",
+            "how_to_use":"Steep 1-2 tablespoons of dried rosehips per one cup of water. Bring the water to a boil and let the rose hips steep for 10-15 minutes.",
+            "price": 8,
+            "category": 1,
+            "rating": 5,
+            "image_url": "https://pixabay.com/photos/hips-pomaceous-red-rose-rugosa-88130/",
+            "image": "rose_hips.jpg"
+        }
+    }
+    {
+        "pk": 5,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5382950005",
+            "name":"Chamomile",
+            "decription_title":"Reduces menstural cramps, lowers blood sugar, reduces inflammation",
+            "description":"Studies have shown drinking the tea for a month reduces menstrual pain. Chamomile can lower blood sugar in people with diabetes. Had anti-estrogenic effect, promoting bone density slowing/preventing osteoporosis. Contains chemical compounds that may reduce inflammation. Helps to relax and fall asleep.",
+            "how_to_use":"Steep 1.5 Tablespoons in 350ml water at 200F|93c for 5 minutes",
+            "price": 5.99,
+            "category": 1,
+            "rating": 4.9,
+            "image_url": "https://www.freepik.com/free-photo/ceramic-bowl-spoon-with-herbs_1470321.htm#page=1&query=Chamomile+Tea&position=8",
+            "image": "chamomile.jpg"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5382950005",
+            "name":"Chamomile",
+            "decription_title":"Reduces menstural cramps, lowers blood sugar, reduces inflammation",
+            "description":"Studies have shown drinking the tea for a month reduces menstrual pain. Chamomile can lower blood sugar in people with diabetes. Had anti-estrogenic effect, promoting bone density slowing/preventing osteoporosis. Contains chemical compounds that may reduce inflammation. Helps to relax and fall asleep.",
+            "how_to_use":"Steep 1.5 Tablespoons in 350ml water at 200F|93c for 5 minutes",
+            "price": 5.99,
+            "category": 3,
+            "rating": 4.9,
+            "image_url": "https://www.freepik.com/free-photo/ceramic-bowl-spoon-with-herbs_1470321.htm#page=1&query=Chamomile+Tea&position=8",
+            "image": "chamomile.jpg"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5382950005",
+            "name":"Chamomile",
+            "decription_title":"Reduces menstural cramps, lowers blood sugar, reduces inflammation",
+            "description":"Studies have shown drinking the tea for a month reduces menstrual pain. Chamomile can lower blood sugar in people with diabetes. Had anti-estrogenic effect, promoting bone density slowing/preventing osteoporosis. Contains chemical compounds that may reduce inflammation. Helps to relax and fall asleep.",
+            "how_to_use":"Steep 1.5 Tablespoons in 350ml water at 200F|93c for 5 minutes",
+            "price": 5.99,
+            "category": 2,
+            "rating": 4.9,
+            "image_url": "https://www.freepik.com/free-photo/ceramic-bowl-spoon-with-herbs_1470321.htm#page=1&query=Chamomile+Tea&position=8",
+            "image": "chamomile.jpg"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5382950006",
+            "name":"Lemongrass",
+            "decription_title":"High Antioxidant, Antimicrobial and Anti-inflammatory properties",
+            "description":"Studies have shown lemongrass contains several antioxidants, which can help scavenge free radicals in your body that may cause diseases.
+            The antimicrobial properties may help treat oral infections and cavities. Two of the main compunds in lemongrass, citral and geranial, are thought to be responsible for its anti-inflammatory benefits. Helps upset stomach, stomach cramping and other digestive problems.",
+            "how_to_use":"Pour 1 cup boiling water over 1-3 teaspoons dried lemongrass. Steep for 5 minutes. Start with only one cup daily to limit risk of side effects.",
+            "price": 5,
+            "category": 1,
+            "rating": 4,
+            "image_url": "https://pixnio.com/textures-and-patterns/leaves-plants-patterns-textures/lemongrass-leaf-green-spice",
+            "image": "lemon_grass.jpg"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5382950007",
+            "name":"Orange Peel",
+            "decription_title":"Orange Peel is packed with flavonoids, antioxidant compounds with anti-inflammatory and immune system benefits.",
+            "description":"The peel is  reported to contain at least as much Vitamin C as the orange itself - Vitamin C is well known for its positive effect on health. They are also full of pectin, which feeds the beneficial bacteria in your gut.",
+            "how_to_use":"Immerse 1-2 teaspoons per 1 cup of boiling hot water for 10 minutes ",
+            "price": 7.99,
+            "category": 1,
+            "rating": 3.5,
+            "image_url": "https://www.thesoapkitchen.co.uk/pub/media/catalog/product/cache/a82706e56a7337702e00cd0b36547078/o/r/orange-peel-cut-dried.jpg",
+            "image": "orange_peel.jpg"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5382950008",
+            "name":"Peppermint",
+            "decription_title":"Relieve clogged sinuses, Ease digestive upsets...",
+            "description":"Studies show peppermint tea may relive digestive symptoms, such as gas, bloating and indigestion. Helping with IBS. Peppermint has antibacterial, antiviral and anti-inflammatory properties which may help fight clogged sinuses due to infections, the common cold and allergies by inhaling the steam from the tea.",
+            "how_to_use":"Infuse the herb in boiling water. Use 1-2 grams per cup of boiling water. Let the tea brew for 5-15 minutes",
+            "price": 5.99,
+            "category": 1,
+            "rating": 4.5,
+            "image_url": "https://www.freepik.com/free-photo/tea-herbs-bowls-flat-lay_8111241.htm#page=1&query=mint%20tea%20leaves&position=14",
+            "image": "peppermint_tea.jpg"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5382950008",
+            "name":"Peppermint",
+            "decription_title":"Relieve clogged sinuses, Ease digestive upsets...",
+            "description":"Studies show peppermint tea may relive digestive symptoms, such as gas, bloating and indigestion. Helping with IBS. Peppermint has antibacterial, antiviral and anti-inflammatory properties which may help fight clogged sinuses due to infections, the common cold and allergies by inhaling the steam from the tea.",
+            "how_to_use":"Infuse the herb in boiling water. Use 1-2 grams per cup of boiling water. Let the tea brew for 5-15 minutes",
+            "price": 5.99,
+            "category": 3,
+            "rating": 4.5,
+            "image_url": "https://www.freepik.com/free-photo/tea-herbs-bowls-flat-lay_8111241.htm#page=1&query=mint%20tea%20leaves&position=14",
+            "image": "peppermint_tea.jpg"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5382950009",
+            "name":"Astragalus Root",
+            "decription_title":"Used to invigorate vital energy and strengthen bodily resistance to disease",
+            "description":"Astragalus is an immunostimulant known to increase the count of white blood cells and stimulate the production of antibodies, this builds up bodily resistance to viruses and bacteria. Studies have shown Astragalus also encourages an increase in immune cell (T-cells, natural killer cells, macrophages, immunoglobulin) activity, production, and function.",
+            "how_to_use":"Immmerse 1 teaspoon into 1 cup of boiling water and brew for 5-15 minutes",
+            "price": 6.99,
+            "category": 1,
+            "rating": 5,
+            "image_url": "https://cdn.shopify.com/s/files/1/0060/8092/1715/products/Astragalus_Pieces_1200x1200.jpg?v=1547674340",
+            "image": "astragalus_root.jpg"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5382950010",
+            "name":"Echinacea Root",
+            "decription_title":"Maintain Body Immune System, Cold Remedies, Natural Antibiotics, Tonsilitis",
+            "description":"This tea helps recover from the cold faster. Echinacea contains alkylamides boosting the immune system. Stimulates white blood cells, working as an antibiotic and purifies the blood helping to reduce tonsil inflammation. Stimulates the phagocyte to remove bacterial infections in the body. The anti-oxidant capabilities can eliminate dermatitis problems.",
+            "how_to_use":"immerse 1-1.5 teaspoons in 200ml of water. Boil at 205F|95c for 3-5 minutes",
+            "price": 8.61,
+            "category": 1,
+            "rating": 5,
+            "image_url": "https://www.tea-and-coffee.com/echinacea-herb-tea",
+            "image": "echinacea.jpg"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5382950011",
+            "name":"Ginger",
+            "decription_title":"Immune Support, Nausea",
+            "description":"The antioxidants can help strengthen your immunity and reduce stress. Inhaling the steam from ginger tea may also help relieve nasal congestion and other respiratory issues from the common cold or environmental allergies. The active components, volatile oils and phenol compounds gingerols — can help relieve nausea caused by pregnancy, chemotherapy, or surgery.",
+            "how_to_use":"Immmerse 1-2 teaspoons into a cup of boiling water and brew for 5-15 minutes",
+            "price": 4.99,
+            "category": 1,
+            "rating": 4.8,
+            "image_url": "https://www.freepik.com/free-photo/honey-lemon-ginger-juice-food-beverage-products-from-ginger-extract-food-nutrition-concept_10400612.htm#page=query=Ginger%20tea%20leaves&position=0",
+            "image": "ginger_tea.jpg"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5382950011",
+            "name":"Ginger",
+            "decription_title":"Immune Support, Nausea",
+            "description":"The antioxidants can help strengthen your immunity and reduce stress. Inhaling the steam from ginger tea may also help relieve nasal congestion and other respiratory issues from the common cold or environmental allergies. The active components, volatile oils and phenol compounds gingerols — can help relieve nausea caused by pregnancy, chemotherapy, or surgery.",
+            "how_to_use":"Immmerse 1-2 teaspoons into a cup of boiling water and brew for 5-15 minutes",
+            "price": 4.99,
+            "category": 3,
+            "rating": 4.8,
+            "image_url": "https://www.freepik.com/free-photo/honey-lemon-ginger-juice-food-beverage-products-from-ginger-extract-food-nutrition-concept_10400612.htm#page=query=Ginger%20tea%20leaves&position=0",
+            "image": "ginger_tea.jpg"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5382950012",
+            "name":"Fennel Seed ",
+            "decription_title":"Treats Heartburn, Improves Digestive Health, kills Internal Parasites ...",
+            "description":"Drinking one cup of fennel tea when you start feeling symptoms of indigestion can ease the pain and burning. As an antispasmodic, it can help relax the digestive tract and ease cramps and gas, helping to treat IBS and babies suffering with colic. It reduce acid levels in both the stomach and instines riding it of worms and bacteria. Improve kidney function.",
+            "how_to_use":"Immerse 1 teaspoon of seeds per cup of boiling water and let brew for 5-15 minutes. To be taken no more than 3 times a day",
+            "price": 6.99,
+            "category": 1,
+            "rating": 4.5,
+            "image_url": "https://pixabay.com/photos/fennel-seeds-herb-food-eat-307555/",
+            "image": "fennel.jpg"
+        }
+    },
+    {
+        "pk": 13,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5382950013",
+            "name":"Jasmine",
+            "decription_title":"Contains high levels of antioxidants ...",
+            "description":"May reduce risk of heart attack, supports a strong immune system, may prevent diabetes, reduces stress, improves digestion process and reduces cholestrol values. It also eliminates harmful bacteria and alleviates muscle and other networks resulting from chronic inflammation.",
+            "how_to_use":"Immerse 1-2 teaspoons into 1 cup boiling water and brew for 5-15 minutes",
+            "price": 8.99,
+            "category": 2,
+            "rating": 4,
+            "image_url": "https://pixabay.com/photos/jasmine-jasmine-tea-dried-flowers-2102314/",
+            "image": "jasmine.jpg"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5382950014",
+            "name":"Lavender",
+            "decription_title":"Relive Indigestion, Insomnia, Stress Relief, headaches and Migranes",
+            "description":"The tea has carminative properties that can help eliminate gas and soothe the stomach. Studies have shown lavender has the ability to settle nerves and promote good sleep. Inhaling the Lavender steam relives headaches and migranes. The tea has anticonvulsant and antispasmodic properties which can help treat a person suffering from uncontrollable convulsions. ",
+            "how_to_use":"Immerse 1-2 grams of lavender into 1 cup of boiling water and brew for 5-15 minutes",
+            "price": 7.49,
+            "category": 2,
+            "rating": 4,
+            "image_url": "https://www.freepik.com/free-photo/bowl-dry-petals-surrounded-with-lavender-flowers-white-background_3667435.htm#page=1&query=lavender%20tea&position=4",
+            "image": "lavendar.jpg"
+        }
+    },
+    {
+        "pk": 15,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5382950015",
+            "name":"Lemon Balm",
+            "decription_title":"Anxiety, Insomnia, Col, Cough, Flu, Respiratory Infections... ",
+            "description":"",
+            "how_to_use":"Immerse 2 teaspoons in a cup of boiling water for 5-15 minutes",
+            "price": 6.49,
+            "category": ,
+            "rating": ,
+            "image_url": "https://www.google.com/search?q=dried%20lemon%20balm&tbm=isch&hl=en&tbs&rlz=1C1CHBF_enGB881GB881&sa=X&ved=0CAEQpwVqFwoTCOCzv7ap8-0CFQAAAAAdAAAAABAI&biw=1519&bih=698#imgrc=KTAD_SCVcNx7hM",
+            "image": "lemon_balm.jpg"
+        }
+    },
+    {
+        "pk": 16,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5382950016",
+            "name":"Valerian Root",
+            "decription_title":"Insomnia",
+            "description":"Studies show that valerian reduces the time it takes to fall asleep and improves sleep quality. It contains a chemical called linarin, which creates a sedative effect. It can cause sedation by increasing your brain’s GABA level. Gamma-amino butyric acid (GABA) is an inhibitory neurotransmitter in the central nervous system helping regulate nerve cells & calm anxiety",
+            "how_to_use":"Pour 1 cup boiling water over 1 tsp (2 to 3 grams) of valerian root, steep 5 to 10 minutes. After this time, it is ready to drink. For insomnia drink 3 times per day. Once sleep improves, it is recommended that you keep taking valerian for 2-6 weeks.",
+            "price": 8.99,
+            "category": 2,
+            "rating": 4.4,
+            "image_url": "https://www.google.com/search?q=valerian%20root%20tea&tbm=isch&hl=en&tbs&rlz=1C1CHBF_enGB881GB881&sa=X&ved=0CAEQpwVqFwoTCLjQm6ut8-0CFQAAAAAdAAAAABAC&biw=1519&bih=698#imgrc=nqa4kwebd4hXJM",
+            "image": "valerian_root.jpg"
+        }
+    },
+    {
+        "pk": 17,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5382950017",
+            "name":"Passsion Flower",
+            "decription_title":"Insomnia, Anxiety, Hot Flashes, Pain...",
+            "description":"Studies state it works by increasing gamma-aminobutyric acid in the brain. GABA is a naturally-occurring amino acid reducing activity in the central nervous system. Resulting in relaxation, enhanced mood, better sleep, and pain relief. It is a successful treatment for the symptoms of generalized anxiety disorder (GAD)with less side effects compared to benzodiazepines.",
+            "how_to_use":"Steep 1 tablespoon of passionflower in a cup of hot water for 6-8 minutes. Steep for 10-15 minutes for a stronger tea and more porential benefits",
+            "price": 7.99,
+            "category": 2,
+            "rating": 4.2,
+            "image_url": "https://www.google.co.uk/imgres?imgurl=https://cdn.shopify.com/s/files/1/1225/3182/products/passionflower-tea-top-close_700x_crop_center.jpg?v%3D1527271649&imgrefurl=https://www.tealife.com.au/products/passionflower-tea&tbnid=EJpGGl0hfk907M&vet=1&docid=4n9D75MROCQLpM&w=700&h=700&source=sh/x/im",
+            "image": "passion_flower.jpg"
+        }
+    },
+    {
+        "pk": 18,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5382950018",
+            "name":"Magnolia Bark",
+            "decription_title":"Asthma, Anxiety, Depression, Stomach, Disorders and Inflammation",
+            "description":"The bark, leaves, and flowers of the houpo magnolia tree are used in traditional medicine to treat anxiety, depression, and more. Many benefits of magnolia bark can be attributed to two powerful polyphenols — magnolol and honokiol. The polyphenols in magnolia bark — honokiol and magnolol — have been found to help induce and improve sleep.",
+            "how_to_use":"Immerse 2 teaspoons in a cup of boiling water for 2-4 minutes. Dont combine with any other type of sedative or sleeping pill. ",
+            "price": 14.99,
+            "category": 2,
+            "rating": 5,
+            "image_url": "https://blog.drseeds.com/wp-content/uploads/2019/12/magnolia-bark-chinese-herbal-medicine-magnolia-bark-ss-Featured.jpg",
+            "image": "magnolia_bark.jpg"
+        }
+    },
+    {
+        "pk": 19,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5382950019",
+            "name":"Wild Lettuce",
+            "decription_title":"Improves Respiratory Health, Improves Psychological Health, Insomnia",
+            "description":"Its antitussive properties give relief from irritation in the lungs and the bronchial tubes helping to treat whooping cough and asthma. Contains vitamin C protecting the respiratory system from oxidative damage caused by free radicals in the body. Contains vitamin A that reduces inflammation of the lungs and bronchial asthma. Mild sedative properties to help insomnia. ",
+            "how_to_use":"immerse 1-2 teaspoons in a cup of boiling water for 5-15 minutes. Avoid if taking any other Sedatives, anti-deppresant medication or sleeping pills.",
+            "price": 9.99,
+            "category": 2,
+            "rating": 4,
+            "image_url": "https://i.etsystatic.com/11149467/r/il/bfb1be/2138173352/il_570xN.2138173352_chmo.jpg",
+            "image": "wild_lettuce.jpg"
+        }
+    },
+    {
+        "pk": 20,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5382950020",
+            "name":"Liquorice Root Tea",
+            "decription_title":"Digestion Aid, Skin Health, Oral Health and common Cold",
+            "description":"The flavour is similar to black licorice and has notes of anise and peppermint. Research shows that licorice root tea may offer benefits for human health ranging from sore throat improvement to reduced risk of heart disease.  ",
+            "how_to_use":"Infuse these pieces of shredded root into a pan of hot water and steep for 3-10 minutes on a low heat. 1/2 - 1 tsp root per cup of boiling water.",
+            "price": 6.99,
+            "category": 3,
+            "rating": 5,
+            "image_url": "https://www.vigopresses.co.uk/imagecache/29804bf4-d6d8-42e7-abc6-aad8011078d7_500x500.jpg",
+            "image": "liquorice_root.jpg"
+        }
+    },
+    {
+        "pk": 21,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5382950021",
+            "name":"Yerba Mate",
+            "decription_title":"Rich In Antioxidants & Nutrients. Boost Energy & Improve Mental Focus",
+            "description":"Yerba containes Xanthines which act as stimulants including caffeine and theobromine which is also found in coffee and chocoalte. Caffeoyl derivatives are the main helth promoting antioxidants in the tea. Saponins have anti-inflammatory and cholestrol lowering properties. Polyphenols are a large group of antioxidants, linked to reduced risk of many diseases.",
+            "how_to_use":"Immerse 1 teaspoon in a cup of boiling water for 5-15 minutes.",
+            "price": 11,
+            "category": 3,
+            "rating": 3.8,
+            "image_url": "https://pixabay.com/photos/dishes-yerba-mate-background-2378848/",
+            "image": "yerba_mate.jpg"
+        }
+    },
+    {
+        "pk": 22,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5382950001",
+            "name":"",
+            "decription_title":"",
+            "description":"",
+            "how_to_use":"",
+            "price": ,
+            "category": ,
+            "rating": ,
+            "image_url": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 23,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5382950001",
+            "name":"",
+            "decription_title":"",
+            "description":"",
+            "how_to_use":"",
+            "price": ,
+            "category": ,
+            "rating": ,
+            "image_url": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 24,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5382950001",
+            "name":"",
+            "decription_title":"",
+            "description":"",
+            "how_to_use":"",
+            "price": ,
+            "category": ,
+            "rating": ,
+            "image_url": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 25,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5382950001",
+            "name":"",
+            "decription_title":"",
+            "description":"",
+            "how_to_use":"",
+            "price": ,
+            "category": ,
+            "rating": ,
+            "image_url": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 26,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5382950001",
+            "name":"",
+            "decription_title":"",
+            "description":"",
+            "how_to_use":"",
+            "price": ,
+            "category": ,
+            "rating": ,
+            "image_url": "",
+            "image": ""
+        }
+    },
+    {
+        "pk": 27,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5382950001",
+            "name":"",
+            "decription_title":"",
+            "description":"",
+            "how_to_use":"",
+            "price": ,
+            "category": ,
+            "rating": ,
+            "image_url": "",
+            "image": ""
+        }
+    }
+]
