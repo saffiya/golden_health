@@ -62,7 +62,7 @@
             "image_url": "https://pixabay.com/photos/hips-pomaceous-red-rose-rugosa-88130/",
             "image": "rose_hips.jpg"
         }
-    }
+    },
     {
         "pk": 5,
         "model": "products.product",
@@ -118,8 +118,7 @@
             "sku": "pp5382950006",
             "name":"Lemongrass",
             "decription_title":"High Antioxidant, Antimicrobial and Anti-inflammatory properties",
-            "description":"Studies have shown lemongrass contains several antioxidants, which can help scavenge free radicals in your body that may cause diseases.
-            The antimicrobial properties may help treat oral infections and cavities. Two of the main compunds in lemongrass, citral and geranial, are thought to be responsible for its anti-inflammatory benefits. Helps upset stomach, stomach cramping and other digestive problems.",
+            "description":"Studies show it contains antioxidants, which help scavenge free radicals in the body that may cause diseases. Antimicrobial properties may help treat oral infections & cavities. Two of the main compunds in lemongrass, citral and geranial, are thought to be responsible for its anti-inflammatory benefits. Helps upset stomach, stomach cramping & other digestive problems.",
             "how_to_use":"Pour 1 cup boiling water over 1-3 teaspoons dried lemongrass. Steep for 5 minutes. Start with only one cup daily to limit risk of side effects.",
             "price": 5,
             "category": 1,
@@ -295,11 +294,11 @@
             "sku": "pp5382950015",
             "name":"Lemon Balm",
             "decription_title":"Anxiety, Insomnia, Col, Cough, Flu, Respiratory Infections... ",
-            "description":"",
+            "description":"Promotes the immune system with its antiseptic and antibacterial properties. Studies show it help improve your mood and helps relax. Loaded with antioxidants that helps the body to get rid of free radicals",
             "how_to_use":"Immerse 2 teaspoons in a cup of boiling water for 5-15 minutes",
             "price": 6.49,
-            "category": ,
-            "rating": ,
+            "category": 2,
+            "rating": 5,
             "image_url": "https://www.google.com/search?q=dried%20lemon%20balm&tbm=isch&hl=en&tbs&rlz=1C1CHBF_enGB881GB881&sa=X&ved=0CAEQpwVqFwoTCOCzv7ap8-0CFQAAAAAdAAAAABAI&biw=1519&bih=698#imgrc=KTAD_SCVcNx7hM",
             "image": "lemon_balm.jpg"
         }
@@ -398,102 +397,6 @@
             "rating": 3.8,
             "image_url": "https://pixabay.com/photos/dishes-yerba-mate-background-2378848/",
             "image": "yerba_mate.jpg"
-        }
-    },
-    {
-        "pk": 22,
-        "model": "products.product",
-        "fields": {
-            "sku": "pp5382950001",
-            "name":"",
-            "decription_title":"",
-            "description":"",
-            "how_to_use":"",
-            "price": ,
-            "category": ,
-            "rating": ,
-            "image_url": "",
-            "image": ""
-        }
-    },
-    {
-        "pk": 23,
-        "model": "products.product",
-        "fields": {
-            "sku": "pp5382950001",
-            "name":"",
-            "decription_title":"",
-            "description":"",
-            "how_to_use":"",
-            "price": ,
-            "category": ,
-            "rating": ,
-            "image_url": "",
-            "image": ""
-        }
-    },
-    {
-        "pk": 24,
-        "model": "products.product",
-        "fields": {
-            "sku": "pp5382950001",
-            "name":"",
-            "decription_title":"",
-            "description":"",
-            "how_to_use":"",
-            "price": ,
-            "category": ,
-            "rating": ,
-            "image_url": "",
-            "image": ""
-        }
-    },
-    {
-        "pk": 25,
-        "model": "products.product",
-        "fields": {
-            "sku": "pp5382950001",
-            "name":"",
-            "decription_title":"",
-            "description":"",
-            "how_to_use":"",
-            "price": ,
-            "category": ,
-            "rating": ,
-            "image_url": "",
-            "image": ""
-        }
-    },
-    {
-        "pk": 26,
-        "model": "products.product",
-        "fields": {
-            "sku": "pp5382950001",
-            "name":"",
-            "decription_title":"",
-            "description":"",
-            "how_to_use":"",
-            "price": ,
-            "category": ,
-            "rating": ,
-            "image_url": "",
-            "image": ""
-        }
-    },
-    {
-        "pk": 27,
-        "model": "products.product",
-        "fields": {
-            "sku": "pp5382950001",
-            "name":"",
-            "decription_title":"",
-            "description":"",
-            "how_to_use":"",
-            "price": ,
-            "category": ,
-            "rating": ,
-            "image_url": "",
-            "image": ""
         }
     }
 ]
