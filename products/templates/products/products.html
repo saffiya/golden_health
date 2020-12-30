@@ -1,4 +1,3 @@
-<!doctype html>
 {% extends "base.html" %}
 {% load static %}
 
@@ -11,7 +10,6 @@
 {% endblock %}
 
 {% block content %}
-    <!--Full page overlay-->
     <div class="overlay"></div>
     <div class="container-fluid">
         <div class="row">
@@ -28,7 +26,6 @@
         <div class="row">
             <div class="product-container col-10 offset-1">
                 <div class="row mt-1 mb-2">
-                    <!--To sort by-->
                     <div class="col-12 col-md-6 my-auto order-md-last d-flex justify-content-center justify-content-md-end">
                         <div class="sort-select-wrapper w-50">
                             <select id="sort-selector" class="custom-select custom-select-sm rounded-0 border border-{% if current_sorting != 'None_None' %}info{% else %}black{% endif %}">
@@ -53,31 +50,22 @@
                         </p>
                     </div>
                 </div>
-                </div>
                 <div class="row">
                     {% for product in products %}
-                        <!--Products will stack on mobile be side by side on sm and md screens split into 3 columns on lg and 4 columns on xl-->
                         <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
                             <div class="card h-100 border-0">
-                                <!--Top that Contains our product image-->
-                                <!--Uses an if statement that renders the product image using the image fields URL attribute if an image exists-->
                                 {% if product.image %}
                                 <a href="{% url 'product_detail' product.id %}">
                                     <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">
                                 </a>
-                                <!--Or the default image from the media folder otherwise-->
                                 {% else %}
                                 <a href="{% url 'product_detail' product.id %}">
                                     <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
                                 </a>
                                 {% endif %}
-                                <!--Body that contains our product name-->
-                                <!--A paragraph with the products name-->
                                 <div class="card-body pb-0">
                                     <p class="mb-0">{{ product.name }}</p>
                                 </div>
-                                <!--Footer that containing the price and rating-->
-                                <!--Contains a row and a column which will envelop the product price and rating if one exists-->
                                 <div class="card-footer bg-white pt-0 border-0 text-left">
                                     <div class="row">
                                         <div class="col">
@@ -88,6 +76,7 @@
                                                     <i class="fas fa-tag mr-1"></i>{{ product.category.friendly_name }}
                                                 </a>
                                             </p>
+                                            {% endif %}
                                             {% if product.rating %}
                                                 <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ product.rating }} / 5</small>
                                             {% else %}
@@ -98,7 +87,6 @@
                                 </div>
                             </div>
                         </div>
-                        <!--Creating a full width horizontal rule after each row of products mb-5 is for bottom margin-->
                         {% if forloop.counter|divisibleby:1 %}
                             <div class="col-12 d-sm-none mb-5">
                                 <hr>
@@ -128,8 +116,8 @@
         <a class="btt-link d-flex h-100">
             <i class="fas fa-arrow-up text-black mx-auto my-auto"></i>
         </a>	
-    </div>  
-{% endblock %}              
+    </div>
+{% endblock %}
 
 {% block postloadjs %}
     {{ block.super }}
