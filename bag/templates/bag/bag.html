@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+    <!--Overlay to cover up the background image-->
+    <div class="overlay"></div>
+    <!--Layout will be similar to the products page but uses a container instead of a container fluid-->
+    <div class="container mb-2">
+            <!--Inside the container will be two rows, each with a single column-->
+            <!--The first row contains the shopping bag heading, between a couple of horizontal rules-->
+        <div class="row">
+            <div class="col">
+                <hr>
+                <h2 class="logo-font mb-4">Shopping Bag</h2>
+                <hr>
+            </div>
+        </div>
+            <!--The second row contains a table to show the bag contents-->
+        <div class="row">
+            <div class="col">              
+                <!--if statement so we only render the table if there's something in the shopping bag-->
+                <!--bag_items will be created in the next step but we can use it now to handle the logic for an empty shopping bag-->
+                {% if bag_items %}
+                    <!--If there are items in the bag this table is rendered-->
+                    <div class="table-responsive rounded"></div>
+                {% else %}
+                    <!--If there are no item in the bag this paragraph is rendered and a link back to the products page-->
+                    <p class="lead mb-5">Your bag is empty.</p>
+                    <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 btn-lg">
+                        <span class="icon">
+                            <i class="fas fa-chevron-left"></i>
+                        </span>
+                        <span class="text-uppercase">Keep Shopping</span>
+                    </a>
+                {% endif %}
+            
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
