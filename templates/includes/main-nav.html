@@ -21,11 +21,11 @@
                     Tea
                 </a>
                 <div class="dropdown-menu border-0" aria-labelledby="tea-link">
-                    <a href="" class="dropdown-item">Immune Boosting</a>
-                    <a href="" class="dropdown-item">Sleep Enhancing </a>
-                    <a href="" class="dropdown-item">Energy Enhancing</a>
-                    <a href="" class="dropdown-item">Dessert</a>
-                    <a href="" class="dropdown-item">All Teas</a>
+                    <a href="{% url 'products' %}?category=immune_boosting" class="dropdown-item">Immune Boosting</a>
+                    <a href="{% url 'products' %}?category=sleep_enhancing" class="dropdown-item">Sleep Enhancing </a>
+                    <a href="{% url 'products' %}?category=energy_enhancing" class="dropdown-item">Energy Enhancing</a>
+                    <a href="{% url 'products' %}?category=dessert" class="dropdown-item">Dessert</a>
+                    <a href="{% url 'products' %}?category=immune_boosting,sleep_enhancing,energy_enhancing,dessert" class="dropdown-item">All Teas</a>
                 </div>
             </li>
 
@@ -35,9 +35,9 @@
                     Teaware
                 </a>
                 <div class="dropdown-menu border-0" aria-labelledby="teaware-link">
-                    <a href="" class="dropdown-item">Teapots</a>
-                    <a href="" class="dropdown-item">Accessories</a>
-                    <a href="" class="dropdown-item">All Teaware</a>
+                    <a href="{% url 'products' %}?category=teapots" class="dropdown-item">Teapots</a>
+                    <a href="{% url 'products' %}?category=accessories" class="dropdown-item">Accessories</a>
+                    <a href="{% url 'products' %}?category=teapots,accessories" class="dropdown-item">All Teaware</a>
                 </div>
             </li>
         </ul>
