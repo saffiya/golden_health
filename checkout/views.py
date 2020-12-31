@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect, reverse, get_object_or_404, HttpResponse
+from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from django.conf import settings
 
@@ -57,7 +57,7 @@ def checkout(request):
                     )
                     order.delete()
                     return redirect(reverse('view_bag'))
-            
+
             request.session['save_info'] = 'save-info' in request.POST
             return redirect(reverse('checkout_success', args=[order.order_number]))
         else:
@@ -69,18 +69,15 @@ def checkout(request):
             messages.error(request, "There's nothing in your bag at the moment")
             return redirect(reverse('products'))
 
-
         current_bag = bag_contents(request)
         total = current_bag['grand_total']
         stripe_total = round(total * 100)
         stripe.api_key = stripe_secret_key
         intent = stripe.PaymentIntent.create(
-                amount=stripe_total,
-                currency=settings.STRIPE_CURRENCY,
-            )
+            amount=stripe_total,
+            currency=settings.STRIPE_CURRENCY,
+        )
 
-        print(intent)
-        
         order_form = OrderForm()
 
     if not stripe_public_key:
@@ -95,6 +92,7 @@ def checkout(request):
     }
 
     return render(request, template, context)
+
 
 def checkout_success(request, order_number):
     """
