@@ -31,7 +31,9 @@
                 <!--bag_items will be created in the next step but we can use it now to handle the logic for an empty shopping bag-->
                 {% if bag_items %}
                     <!--If there are items in the bag this table is rendered-->
-                    <div class="table-responsive rounded"></div>
+                    <div class="table-responsive rounded">
+                        {{ bag_items }}
+                    </div>
                 {% else %}
                     <!--If there are no item in the bag this paragraph is rendered and a link back to the products page-->
                     <p class="lead mb-5">Your bag is empty.</p>
