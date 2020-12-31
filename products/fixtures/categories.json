@@ -24,14 +24,6 @@
         }
     },
     {
-        "pk": 4,
-        "model": "products.category",
-        "fields": {
-            "name": "dessert",
-            "friendly_name": "Dessert"
-        }
-    },
-    {
         "pk": 5,
         "model": "products.category",
         "fields": {
