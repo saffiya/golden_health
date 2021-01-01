@@ -1,0 +1,1 @@
+web: gunicorn golden_health.wsgi:application
