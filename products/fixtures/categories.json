@@ -32,14 +32,6 @@
         }
     },
     {
-        "pk": 6,
-        "model": "products.category",
-        "fields": {
-            "name": "teacups",
-            "friendly_name": "Teacups"
-        }
-    },
-    {
         "pk": 7,
         "model": "products.category",
         "fields": {
