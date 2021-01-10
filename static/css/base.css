@@ -40,6 +40,12 @@ homepage */
     min-width: 260px;
 }
 
+.subscribe-button {
+    background: white;
+    color: black;
+    min-width: 260px;
+}
+
 .btn-black {
     background: black;
     color: white;
@@ -109,6 +115,20 @@ a.category-badge > span.badge:hover {
 input[name='q']::placeholder {
     color: #aab7c4;
 }
+
+/* Subscription Section */
+.subscription {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.bold-title {
+    font-weight: bold;
+}
+
+.subscription-text {
+    padding-bottom: 10px;
+}
 /* ------------------------------- bootstrap toasts */
 
 .message-container {
@@ -176,7 +196,6 @@ input[name='q']::placeholder {
     overflow-x: hidden;
     overflow-y: auto;
 }
-
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
