@@ -40,7 +40,7 @@
 </ul>
 
 <h3>Wireframes</h3>
-<a href="">Click here to view the wireframes i created using Balsamiq</a>
+<a href="https://balsamiq.cloud/sqgxjhd/pik9j3d">Click here to view the wireframes i created using Balsamiq</a>
 
 <h2>Features</h2>
 <ul>
