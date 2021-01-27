@@ -5,10 +5,11 @@ from django.contrib.auth.decorators import login_required
 from django.db.models import Q
 from django.db.models.functions import Lower
 
-from .models import Product, Category
-from .forms import ProductForm
+from .models import Product, Category, Review
+from .forms import ProductForm, ReviewForm
 
 # Create your views here.
+
 
 def all_products(request):
     """ A view to show all products, including sorting and search queries """
@@ -33,7 +34,7 @@ def all_products(request):
                 if direction == 'desc':
                     sortkey = f'-{sortkey}'
             products = products.order_by(sortkey)
-            
+
         if 'category' in request.GET:
             categories = request.GET['category'].split(',')
             products = products.filter(category__name__in=categories)
@@ -44,7 +45,7 @@ def all_products(request):
             if not query:
                 messages.error(request, "You didn't enter any search criteria!")
                 return redirect(reverse('products'))
-            
+
             queries = Q(name__icontains=query) | Q(description__icontains=query)
             products = products.filter(queries)
 
@@ -70,6 +71,28 @@ def product_detail(request, product_id):
     }
 
     return render(request, 'products/product_detail.html', context)
+
+
+def add_review(request, product_id):
+    """
+    Handles the POST request for review form. Saves the form and redirects
+    to the product selected page
+    """
+    product = get_object_or_404(Product, pk=product_id)
+
+    if request.method == 'POST': 
+        review_form = ReviewForm(request.POST)
+        if review_form.is_valid():
+            review = review_form.save(commit=False)
+            review.product = product
+            review.user = request.user
+            review.save()
+            messages.info(request, "Your review has been received! Thank you for your interest.")
+            return redirect(reverse('product_detail', args=[product_id]))
+        else:
+            print(review_form.errors)
+            
+    return redirect(reverse('product_detail', args=[product_id]))
 
 @login_required
 def add_product(request):

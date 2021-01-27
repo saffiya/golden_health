@@ -13,7 +13,7 @@
 {% block content %}
     <!--Full page overlay-->
     <div class="overlay"></div>
-    <div class="container-fluid">
+    <section class="container-fluid">
         <div class="row">
             <div class="col-12 col-md-6 col-lg-4 offset-lg-2">
                 <div class="image-container my-5">
@@ -40,10 +40,27 @@
                         </a>
                     </p>
                     {% endif %}
-                    {% if product.rating %}
+                    <!--{% if product.rating %}
                         <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ product.rating }} / 5</small>
                     {% else %}
                         <small class="text-muted">No Rating</small>
+                    {% endif %}
+                    -->
+                    {% if product.averagereview %}
+                        <small class="text-muted">
+                            <i class="fas fa-star{% if product.averagereview < 1 %}-o empty{% endif %}"></i>
+                            {% if product.averagereview > 1 and product.averagereview < 2 %}<i class="fas fa-star-half-alt"></i>{% endif %}
+                            <i class="fas fa-star{% if product.averagereview < 2 %}-o empty{% endif %}"></i>
+                            {% if product.averagereview > 2 and product.averagereview < 3 %}<i class="fas fa-star-half-alt"></i>{% endif %}
+                            <i class="fas fa-star{% if product.averagereview < 3 %}-o empty{% endif %}"></i>
+                            {% if product.averagereview > 3 and product.averagereview < 4 %}<i class="fas fa-star-half-alt"></i>{% endif %}
+                            <i class="fas fa-star{% if product.averagereview < 4 %}-o empty{% endif %}"></i>
+                            {% if product.averagereview > 4 and product.averagereview < 5 %}<i class="fas fa-star-half-alt"></i>{% endif %}
+                            <i class="fas fa-star{% if product.averagereview < 5 %}-o empty{% endif %}"></i>
+                            {{ product.averagereview|floatformat:1 }} / 5
+                        </small>
+                    {% else %}
+                        <small class="text-muted"><i class="far fa-star"></i> No ratings</small>
                     {% endif %}
                     {% if request.user.is_superuser %}
                         <small class="ml-3">
@@ -115,7 +132,60 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+
+    <!--Reviews section-->
+    <section class="container-fluid">
+        <div class="row mt-5">
+            <div class="col col-lg-8 offset-lg-2">
+                <h4 class="text-uppercase">Reviews</h4>
+                <hr class="w-100 mb-1">
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-12 col-sm-6 col-md-6 col-lg-4 offset-lg-2 all-reviews mb-4">
+                {% if reviews %}
+                    {% for review in reviews %}
+                        <div class="single-review mb-3">
+                            <div class="review-heading">
+                                <span class="mr-3 text-muted"><i class="fas fa-user"></i>{{ review.user.username }}</span>
+                                <span class="text-muted"><i class="fas fa-clock"></i> {{ review.created_at }}</span>
+                                <div class="review-rating float-right">
+                                    <i class="fas fa-star{% if review.rate < 1 %}-o empty{% endif %}"></i>
+                                    <i class="fas fa-star{% if review.rate < 2 %}-o empty{% endif %}"></i>
+                                    <i class="fas fa-star{% if review.rate < 3 %}-o empty{% endif %}"></i>
+                                    <i class="fas fa-star{% if review.rate < 4 %}-o empty{% endif %}"></i>
+                                    <i class="fas fa-star{% if review.rate < 5 %}-o empty{% endif %}"></i>
+                                </div>
+                                <div class="mt-2"><p><strong>{{ review.subject }}</strong></p></div>
+                            </div>
+                            <div class="review-body">
+                                {{ review.review }}
+                            </div>
+                        </div>
+                        <hr>
+                    {% endfor %}
+                {% else %}
+                    <p>There are currently no reviews. Be the first one to leave a review!</p>
+                {% endif %}
+            </div>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-4 form-bg p-3">
+                <h5 class="text-uppercase">Write a review</h5>
+                <form action="{% url 'add_review' product.id %}" method="POST" class="form-group review-form">
+                    {% csrf_token %}
+                    {{ review_form|crispy }}
+                    {% if user.is_authenticated %}
+                        <button id="submit-button" class="btn btn-black">
+                            <span class="text-uppercase">Add review</span>
+                        </button>
+                    {% else %}
+                        <p>You must be logged in to add reviews! <a href="{% url 'account_login' %}">Login</a>
+                         or <a href="{% url 'account_signup' %}">Register</a></p>
+                    {% endif %}
+                </form>
+            </div>
+        </div>
+    </section>
 {% endblock %}    
 
 {% block postloadjs %}

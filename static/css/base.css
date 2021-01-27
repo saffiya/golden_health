@@ -22,6 +22,17 @@ perfectly centered and have a consistent size unless we manually change it*/
     width: 1.5rem;
 }
 
+/* Font Awesome icons */
+.fab {
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.fa-star,
+.fa-star-half-alt {
+    color: #FFBA00;
+}
+
 /* will be used to maintain consistency with the uppercase font of the logo */
 .logo-font {
     text-transform: uppercase;
@@ -196,6 +207,13 @@ input[name='q']::placeholder {
     overflow-x: hidden;
     overflow-y: auto;
 }
+
+/*-----Reviews------*/
+.all-reviews {
+    max-height: 450px;
+    overflow-y: auto;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
