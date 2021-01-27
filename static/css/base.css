@@ -214,6 +214,14 @@ input[name='q']::placeholder {
     overflow-y: auto;
 }
 
+/*----Forms----*/
+.form-bg {
+    background-color: #fafafa;
+    -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.8);
+    -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.8);
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
