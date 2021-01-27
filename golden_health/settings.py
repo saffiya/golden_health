@@ -27,7 +27,7 @@ SECRET_KEY = 'a@8^6o6g7aihrg@pts0++(=md0mk$31=pu=ioz0xcw6st&j$ut'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['golden-health.herokuapp.com', 'localhost']
 
 
 # Application definition
