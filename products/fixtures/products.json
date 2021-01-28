@@ -10,7 +10,6 @@
             "how_to_use":"can be enjoyed hot or cold. Hot: Place 1-1.5 tsp of tea per 8oz/200ml of water. Heat water to 205F/95C and steep for 4-5 minutes depending on taste; the longer you brew the tangier the taste. Cold: Once heated place over ice to drink cold. For taste you can add cinnamon when brewing or sugar to sweeten.",
             "price": 9,
             "category": 1,
-            "rating": 5,
             "image_url": "https://pixabay.com/photos/hibiscus-herbal-tea-3284431/",
             "image": "hibiscus_tea.jpg"
         }
@@ -26,7 +25,6 @@
             "how_to_use":"Steep 1 tablespoon of the dried olive leaves in hot water for 10 minutes; have with organic honey or lemon if too bitter ",
             "price": 9,
             "category": 1,
-            "rating": 4.9,
             "image_url": "https://images-na.ssl-images-amazon.com/images/I/91YJd4tWalL._AC_SX569_.jpg",
             "image": "olive_leaf.jpg"
         }
@@ -42,7 +40,6 @@
             "how_to_use":"Steep 1.5 tablespoons of the dried elderbery in 350ml of hot water for 5 minutes",
             "price": 10,
             "category": 1,
-            "rating": 5,
             "image_url": "https://commons.wikimedia.org/wiki/File:Sunmaid-Raisin-Pile.jpg",
             "image": "elderberry.jpg"
         }
@@ -58,7 +55,6 @@
             "how_to_use":"Steep 1-2 tablespoons of dried rosehips per one cup of water. Bring the water to a boil and let the rose hips steep for 10-15 minutes.",
             "price": 8,
             "category": 1,
-            "rating": 5,
             "image_url": "https://pixabay.com/photos/hips-pomaceous-red-rose-rugosa-88130/",
             "image": "rose_hips.jpg"
         }
@@ -74,7 +70,6 @@
             "how_to_use":"Steep 1.5 Tablespoons in 350ml water at 200F|93c for 5 minutes",
             "price": 5.99,
             "category": 1,
-            "rating": 4.9,
             "image_url": "https://www.freepik.com/free-photo/ceramic-bowl-spoon-with-herbs_1470321.htm#page=1&query=Chamomile+Tea&position=8",
             "image": "chamomile.jpg"
         }
@@ -90,7 +85,6 @@
             "how_to_use":"Steep 1.5 Tablespoons in 350ml water at 200F|93c for 5 minutes",
             "price": 5.99,
             "category": 3,
-            "rating": 4.9,
             "image_url": "https://www.freepik.com/free-photo/ceramic-bowl-spoon-with-herbs_1470321.htm#page=1&query=Chamomile+Tea&position=8",
             "image": "chamomile.jpg"
         }
@@ -106,7 +100,6 @@
             "how_to_use":"Steep 1.5 Tablespoons in 350ml water at 200F|93c for 5 minutes",
             "price": 5.99,
             "category": 2,
-            "rating": 4.9,
             "image_url": "https://www.freepik.com/free-photo/ceramic-bowl-spoon-with-herbs_1470321.htm#page=1&query=Chamomile+Tea&position=8",
             "image": "chamomile.jpg"
         }
@@ -122,7 +115,6 @@
             "how_to_use":"Pour 1 cup boiling water over 1-3 teaspoons dried lemongrass. Steep for 5 minutes. Start with only one cup daily to limit risk of side effects.",
             "price": 5,
             "category": 1,
-            "rating": 4,
             "image_url": "https://pixnio.com/textures-and-patterns/leaves-plants-patterns-textures/lemongrass-leaf-green-spice",
             "image": "lemon_grass.jpg"
         }
@@ -138,7 +130,6 @@
             "how_to_use":"Immerse 1-2 teaspoons per 1 cup of boiling hot water for 10 minutes ",
             "price": 7.99,
             "category": 1,
-            "rating": 3.5,
             "image_url": "https://www.thesoapkitchen.co.uk/pub/media/catalog/product/cache/a82706e56a7337702e00cd0b36547078/o/r/orange-peel-cut-dried.jpg",
             "image": "orange_peel.jpg"
         }
@@ -154,7 +145,6 @@
             "how_to_use":"Infuse the herb in boiling water. Use 1-2 grams per cup of boiling water. Let the tea brew for 5-15 minutes",
             "price": 5.99,
             "category": 1,
-            "rating": 4.5,
             "image_url": "https://www.freepik.com/free-photo/tea-herbs-bowls-flat-lay_8111241.htm#page=1&query=mint%20tea%20leaves&position=14",
             "image": "peppermint_tea.jpg"
         }
@@ -170,7 +160,6 @@
             "how_to_use":"Infuse the herb in boiling water. Use 1-2 grams per cup of boiling water. Let the tea brew for 5-15 minutes",
             "price": 5.99,
             "category": 3,
-            "rating": 4.5,
             "image_url": "https://www.freepik.com/free-photo/tea-herbs-bowls-flat-lay_8111241.htm#page=1&query=mint%20tea%20leaves&position=14",
             "image": "peppermint_tea.jpg"
         }
@@ -186,7 +175,6 @@
             "how_to_use":"Immmerse 1 teaspoon into 1 cup of boiling water and brew for 5-15 minutes",
             "price": 6.99,
             "category": 1,
-            "rating": 5,
             "image_url": "https://cdn.shopify.com/s/files/1/0060/8092/1715/products/Astragalus_Pieces_1200x1200.jpg?v=1547674340",
             "image": "astragalus_root.jpg"
         }
@@ -202,7 +190,6 @@
             "how_to_use":"immerse 1-1.5 teaspoons in 200ml of water. Boil at 205F|95c for 3-5 minutes",
             "price": 8.61,
             "category": 1,
-            "rating": 5,
             "image_url": "https://www.tea-and-coffee.com/echinacea-herb-tea",
             "image": "echinacea.jpg"
         }
@@ -218,7 +205,6 @@
             "how_to_use":"Immmerse 1-2 teaspoons into a cup of boiling water and brew for 5-15 minutes",
             "price": 4.99,
             "category": 1,
-            "rating": 4.8,
             "image_url": "https://www.freepik.com/free-photo/honey-lemon-ginger-juice-food-beverage-products-from-ginger-extract-food-nutrition-concept_10400612.htm#page=query=Ginger%20tea%20leaves&position=0",
             "image": "ginger_tea.jpg"
         }
@@ -234,7 +220,6 @@
             "how_to_use":"Immmerse 1-2 teaspoons into a cup of boiling water and brew for 5-15 minutes",
             "price": 4.99,
             "category": 3,
-            "rating": 4.8,
             "image_url": "https://www.freepik.com/free-photo/honey-lemon-ginger-juice-food-beverage-products-from-ginger-extract-food-nutrition-concept_10400612.htm#page=query=Ginger%20tea%20leaves&position=0",
             "image": "ginger_tea.jpg"
         }
@@ -250,7 +235,6 @@
             "how_to_use":"Immerse 1 teaspoon of seeds per cup of boiling water and let brew for 5-15 minutes. To be taken no more than 3 times a day",
             "price": 6.99,
             "category": 1,
-            "rating": 4.5,
             "image_url": "https://pixabay.com/photos/fennel-seeds-herb-food-eat-307555/",
             "image": "fennel.jpg"
         }
@@ -266,7 +250,6 @@
             "how_to_use":"Immerse 1-2 teaspoons into 1 cup boiling water and brew for 5-15 minutes",
             "price": 8.99,
             "category": 2,
-            "rating": 4,
             "image_url": "https://pixabay.com/photos/jasmine-jasmine-tea-dried-flowers-2102314/",
             "image": "jasmine.jpg"
         }
@@ -282,7 +265,6 @@
             "how_to_use":"Immerse 1-2 grams of lavender into 1 cup of boiling water and brew for 5-15 minutes",
             "price": 7.49,
             "category": 2,
-            "rating": 4,
             "image_url": "https://www.freepik.com/free-photo/bowl-dry-petals-surrounded-with-lavender-flowers-white-background_3667435.htm#page=1&query=lavender%20tea&position=4",
             "image": "lavendar.jpg"
         }
@@ -298,7 +280,6 @@
             "how_to_use":"Immerse 2 teaspoons in a cup of boiling water for 5-15 minutes",
             "price": 6.49,
             "category": 2,
-            "rating": 5,
             "image_url": "https://www.google.com/search?q=dried%20lemon%20balm&tbm=isch&hl=en&tbs&rlz=1C1CHBF_enGB881GB881&sa=X&ved=0CAEQpwVqFwoTCOCzv7ap8-0CFQAAAAAdAAAAABAI&biw=1519&bih=698#imgrc=KTAD_SCVcNx7hM",
             "image": "lemon_balm.jpg"
         }
@@ -314,7 +295,6 @@
             "how_to_use":"Pour 1 cup boiling water over 1 tsp (2 to 3 grams) of valerian root, steep 5 to 10 minutes. After this time, it is ready to drink. For insomnia drink 3 times per day. Once sleep improves, it is recommended that you keep taking valerian for 2-6 weeks.",
             "price": 8.99,
             "category": 2,
-            "rating": 4.4,
             "image_url": "https://www.google.com/search?q=valerian%20root%20tea&tbm=isch&hl=en&tbs&rlz=1C1CHBF_enGB881GB881&sa=X&ved=0CAEQpwVqFwoTCLjQm6ut8-0CFQAAAAAdAAAAABAC&biw=1519&bih=698#imgrc=nqa4kwebd4hXJM",
             "image": "valerian_root.jpg"
         }
@@ -330,7 +310,6 @@
             "how_to_use":"Steep 1 tablespoon of passionflower in a cup of hot water for 6-8 minutes. Steep for 10-15 minutes for a stronger tea and more porential benefits",
             "price": 7.99,
             "category": 2,
-            "rating": 4.2,
             "image_url": "https://www.google.co.uk/imgres?imgurl=https://cdn.shopify.com/s/files/1/1225/3182/products/passionflower-tea-top-close_700x_crop_center.jpg?v%3D1527271649&imgrefurl=https://www.tealife.com.au/products/passionflower-tea&tbnid=EJpGGl0hfk907M&vet=1&docid=4n9D75MROCQLpM&w=700&h=700&source=sh/x/im",
             "image": "passion_flower.jpg"
         }
@@ -346,7 +325,6 @@
             "how_to_use":"Immerse 2 teaspoons in a cup of boiling water for 2-4 minutes. Dont combine with any other type of sedative or sleeping pill. ",
             "price": 14.99,
             "category": 2,
-            "rating": 5,
             "image_url": "https://blog.drseeds.com/wp-content/uploads/2019/12/magnolia-bark-chinese-herbal-medicine-magnolia-bark-ss-Featured.jpg",
             "image": "magnolia_bark.jpg"
         }
@@ -362,7 +340,6 @@
             "how_to_use":"immerse 1-2 teaspoons in a cup of boiling water for 5-15 minutes. Avoid if taking any other Sedatives, anti-deppresant medication or sleeping pills.",
             "price": 9.99,
             "category": 2,
-            "rating": 4,
             "image_url": "https://i.etsystatic.com/11149467/r/il/bfb1be/2138173352/il_570xN.2138173352_chmo.jpg",
             "image": "wild_lettuce.jpg"
         }
@@ -378,7 +355,6 @@
             "how_to_use":"Infuse these pieces of shredded root into a pan of hot water and steep for 3-10 minutes on a low heat. 1/2 - 1 tsp root per cup of boiling water.",
             "price": 6.99,
             "category": 3,
-            "rating": 5,
             "image_url": "https://www.vigopresses.co.uk/imagecache/29804bf4-d6d8-42e7-abc6-aad8011078d7_500x500.jpg",
             "image": "liquorice_root.jpg"
         }
@@ -394,7 +370,6 @@
             "how_to_use":"Immerse 1 teaspoon in a cup of boiling water for 5-15 minutes.",
             "price": 11,
             "category": 3,
-            "rating": 3.8,
             "image_url": "https://pixabay.com/photos/dishes-yerba-mate-background-2378848/",
             "image": "yerba_mate.jpg"
         }
