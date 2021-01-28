@@ -1,4 +1,12 @@
-<form class="form update-form" method="POST" action="{% url 'adjust_bag' item.item_id %}">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form class="form update-form" method="POST" action="{% url 'adjust_bag' item.item_id %}">
     {% csrf_token %}
     <div class="form-group">
         <div class="input-group">
@@ -26,6 +34,8 @@
             {% endif %}
         </div>
     </div>
-</form>
-<a class="update-link text-info"><small>Update</small></a>
-<a class="remove-item text-danger float-right" id="remove_{{ item.item_id }}" data-product_size="{{ item.size }}"><small>Remove</small></a>
+    </form>
+    <a class="update-link text-info"><small>Update</small></a>
+    <a class="remove-item text-danger float-right" id="remove_{{ item.item_id }}" data-product_size="{{ item.size }}"><small>Remove</small></a>
+</body>
+</html>
