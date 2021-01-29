@@ -79,3 +79,22 @@
 <p>The Stripe functionality within the site is only for testing. Please use 4242 4242 4242 4242 as the card number</p>
 
 <h2>Testing</h2>
+<h3>Testing User Stories from User Experience (UX) Section</h3>
+<h4>First Time Visitor Goals</h4>
+
+<h5>As a first-time visitor, I want to easily understand the site's primary purpose and learn more about the products.</h5>
+
+<ul>
+    <li>Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go the page of their choice and a search bar to go straight to the product of their choice. Underneath there is an Image with the text "Explore our wide range of teas" and a "Shop Now" call to action button.
+    </li>
+    <li>The title makes it clear what the primary purpose of the site is </li>
+    <li>The user has two options, click the call to action button or use the navigation buttons to view the products.</li>
+    <li>When the user clicks into each product, there is a summary of the product allowing them to learn more about it.</li>
+</ul>
+
+<h5>As a first-time visitor, I want to navigate throughout the site to find products quickly.</h5>
+
+<ul>
+    <li>The site has been designed to be fluid and never to entrap the user. There is a clean navigation bar at the top of each page; each link describes what page they will end up at. The navigation is fixed on the screen so no matter how far down the screen the user scrolls, they will never be stuck.</li>
+    <li>There is a button to take the user back to the top of the page on all screens at the bottom right-hand side on the All Products, Tea and Teaware pages. So the user doesn't feel trapped when they get to the bottom of the page.</li>
+</ul>
