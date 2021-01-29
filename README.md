@@ -69,6 +69,8 @@
     <li>Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to Github</li>
     <li>Github is used to store the project's code after being pushed from Git</li>
     <li>Balsamiq was used to create the wireframes during the design process</li>
+    <li>AWS was used for S3 storage</li>
+    <li>Gmail was used to send emails from the site to customers</li>
     <li>Stripe was used in checkout giving the ability to process payments</li>
     <li>Adobe Stock was used to acquire specific images. Images such as the hompage image were purchased through Adobe Stock</li>
     <li>Photoshop was used to resize some images</li>
