@@ -80,9 +80,9 @@
 <h2><u>Checkout</u></h2>
 <p>The Stripe functionality within the site is only for testing. Please use 4242 4242 4242 4242 as the card number</p>
 
-<h2>Testing</h2>
+<h2><u>Testing</u></h2>
 <h3>Testing User Stories from User Experience (UX) Section</h3>
-<h4>First Time Visitor Goals</h4>
+<h4>First Time Visitor Goals:</h4>
 
 <h5>As a first-time visitor, I want to easily understand the site's primary purpose and learn more about the products.</h5>
 
