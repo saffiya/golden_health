@@ -55,14 +55,14 @@
 </ul>
 
 <h2><u>Technologies Used</u></h2>
-<h3>Languages Used</h3>
+<h3>Languages Used:</h3>
 <ul>
     <li>HTML5</li>
     <li>Python</li>
     <li>JavaScript</li>
     <li>CSS</li>
 </ul>
-<h3>Frameworks, Libraries & Programs Used</h3>
+<h3>Frameworks, Libraries & Programs Used:</h3>
 <ul>
     <li>Bootstrap was used to assist with the responsiveness and styling of the website</li>
     <li>Google Fonts were used to import the fonts used throughout the site</li>
@@ -77,7 +77,7 @@
     <li>Adobe Stock was used to acquire specific images. Images such as the hompage image were purchased through Adobe Stock</li>
     <li>Photoshop was used to resize some images</li>
 </ul>
-<h2>Checkout</h2>
+<h2><u>Checkout</u></h2>
 <p>The Stripe functionality within the site is only for testing. Please use 4242 4242 4242 4242 as the card number</p>
 
 <h2>Testing</h2>
