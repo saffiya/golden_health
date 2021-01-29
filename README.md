@@ -1,5 +1,5 @@
 <h1>Golden Health</h1>
-<a href="">Click here to view the site</a>
+<a href="https://golden-health.herokuapp.com">Click here to view the site</a>
 
 <h5>This website is orientated on healthy herbal teas that help the immune system. The site is designed to be fully responsive and accessible on a wide range of devices, making it easy to navigate for users. The site has a fully integrated payment system using stripe test mode (please read the checkout section of this read me for more information before testing it out)</h5>
 

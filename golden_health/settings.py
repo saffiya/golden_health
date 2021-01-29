@@ -49,7 +49,6 @@ INSTALLED_APPS = [
     'bag',
     'checkout',
     'profiles',
-    'djstripe',
 
     #other
     'crispy_forms',
@@ -207,7 +206,7 @@ STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')
 if 'DEVELOPMENT' in os.environ:
     EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
     DEFAULT_FROM_EMAIL = 'goldenhealth@example.com'
-else: 
+else:
     EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
     EMAIL_USE_TLS = True
     EMAIL_PORT = 587
@@ -215,8 +214,3 @@ else:
     EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')
     EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASS')
     DEFAULT_FROM_EMAIL = os.environ.get('EMAIL_HOST_USER')
-
-
-DJSTRIPE_WEBHOOK_SECRET = os.getenv('STRIPE_WH_SECRET', '')  
-DJSTRIPE_USE_NATIVE_JSONFIELD = True  
-DJSTRIPE_FOREIGN_KEY_TO_FIELD = "id" 
