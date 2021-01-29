@@ -1,11 +1,11 @@
 <h1>Golden Health</h1>
 <a href="https://golden-health.herokuapp.com">Click here to view the site</a>
 
-<h5>This website is orientated on healthy herbal teas that help the immune system. The site is designed to be fully responsive and accessible on a wide range of devices, making it easy to navigate for users. The site has a fully integrated payment system using stripe test mode (please read the checkout section of this read me for more information before testing it out)</h5>
+<h4>This website is orientated on healthy herbal teas that help the immune system. The site is designed to be fully responsive and accessible on a wide range of devices, making it easy to navigate for users. The site has a fully integrated payment system using stripe test mode (please read the checkout section of this read me for more information before testing it out)</h4>
 
 <img src="">
 
-<h2>User Experience (UX)</h4>
+<h2><u>User Experience (UX)</u></h4>
 <h3>User Stories:</h4>
 <h4>First-time Visitor Goals:</h5>
 <ul>
@@ -22,27 +22,27 @@
     <li>As a returning visitor, I want to be able to reset my password if i have forgotten it </li>
     <li>As a returning visitor, I want to be able to update my delivery information</li>
 </ul>
-<h4>Site Owner</h4>
+<h4>Site Owner Goals:</h4>
 <ul>
     <li>As the site owner, I want to be able to Add new products to the site</li>
     <li>As the site owner, I want to be able to Edit products currently on the site</li>
     <li>As the site owner, I want to be able to Delete products from the site</li>
 </ul>
-<h2>Design</h2>
-<h3>Colour Scheme</h3>
+<h2><u>Design</u></h2>
+<h3>Colour Scheme:</h3>
 <ul>
     <li>The two primary colours are black and white. I wanted the site to be simple, so the main focus is all on the products.</li>
 </ul>
-<h3>Imagery</h3>
+<h3>Imagery:</h3>
 <ul>
     <li>Imagery is really important because the colour scheme is so simple it allows the images to be the star of the show. When you go into the site, the first image you see is an image of a transparent mug and cup with herbal tea inside. I love this picture so much because it's bright, simple, and a perfect way of adding more colour to the site while setting the rest of its mood.</li>
     <li>The only other images that are shown throughout the rest of the site are products. I got the products images from google using the licence free to modify, share and use or from adobe stock images that i have purchased. <li>
 </ul>
 
-<h3>Wireframes</h3>
+<h3>Wireframes:</h3>
 <a href="https://balsamiq.cloud/sqgxjhd/pik9j3d">Click here to view the wireframes i created using Balsamiq</a>
 
-<h2>Features</h2>
+<h2><u>Features</u></h2>
 <ul>
     <li>Responsive to all device sizes</li>
     <li>When any products are added to the bag an alert is shown with the updated bag</li>
@@ -50,9 +50,11 @@
     <li>Users can log in and out</li>
     <li>Users are able to make reviews</li>
     <li>Users are able to view order history</li>
+    <li>Superusers are able to add, edit and delete products</li>
+    <li>Fully functioning emails sent out</li>
 </ul>
 
-<h2>Technologies Used</h2>
+<h2><u>Technologies Used</u></h2>
 <h3>Languages Used</h3>
 <ul>
     <li>HTML5</li>
@@ -98,6 +100,85 @@
     <li>The site has been designed to be fluid and never to entrap the user. There is a clean navigation bar at the top of each page; each link describes what page they will end up at. The navigation is fixed on the screen so no matter how far down the screen the user scrolls, they will never be stuck.</li>
     <li>There is a button to take the user back to the top of the page on all screens at the bottom right-hand side on the All Products, Tea and Teaware pages. So the user doesn't feel trapped when they get to the bottom of the page.</li>
     <li>The site has a search bar so the user can easily find any product they want effortlessly.</li>
-    <li>On each products page, there is a filtering system so users can sort by: Price, Rating, Name, Category
-</li>
+    <li>On each products page, there is a filtering system so users can sort by: Price, Rating, Name, Category</li>
+</ul>
+
+<h5>As a first time user, I want to be able to create an account easily and sign out</h5>
+
+<ul>
+    <li>By clicking on the My Account icon, users can register or log in </li>
+    <li>The user is easily able to register an account by simply filling in the form which asks for their email, username and password</li>
+    <li>Once the user is logged in the My Account icon changes to give the user the ability to view their profile or logout. Once logout is clicked to verify the user does indeed want to logout they are taken to a page which allows them to cancel and go back or press sign out which will log them out and return the user to the home page</li>
+</ul>
+
+<h5>As a first time user, I want to be able to read reviews from other users giving me a deeper understanding of the product</h5>
+
+<ul>
+    <li>Once the user clicks on the product they like, it takes them to a product page which shows, the product, product description, rating and reviews.</li>
+    <li>The reviews on the products pages are made by customers who have purchased from the company before.</li>
+</ul>
+
+<h5>As a first time user, I want to use filters and a search bar to find products quicker and alter my search. </h5>
+
+<ul>
+    <li>No matter what page you are on the search bar is always there at the top of the page, allowing users to find products quicker.</li>
+    <li>When searching through the product pages, there is a sort by the filter at the top right of the screen allowing users to adapt the filter to show what they want to be displayed first whether it be sorting them by name, price, rating or category—thus allowing users to alter their search.</li>
+</ul>
+
+<h4>Returning Visitor Goals</h4>
+
+<h5>As  a returning visitor, I want to be able to log in and out of my account easily</h5>
+
+<ul>
+    <li>Users can easily log in using the My Account icon, which gives them two options to log in or register. Returning visitors can click login and use their username and password to log in. </li>
+    <li>My favourite feature is the remember me box, which is excellent for returning users. Once Remember me is pressed their login details will come up automatically making the login process even more comfortable.</li>
+    <li>The site is made to be as simple to use as possible. I wanted users to log in and out just as quickly as moving from one page to another. </li>
+    <li>Once the user is logged in the My Account icon changes to give the user the ability to view their profile or logout, once log out is clicked to verify the user does indeed want to logout they are taken to a page which allows them to cancel and go back or press sign out which will log them out and return the user to the home page. </li>
+</ul>
+
+<h5>As a returning visitor, I want to be able to see what I have purchased in the past</h5>
+
+<ul>
+    <li>When a user is logged in, if they click the My Account icon, it will show two options My Profile and Logout. If they click My Profile, it will take the user to their profile where they can see their order history. If they click on the order number, it will take them to their full order if they need to review the entire order.</li>
+</ul>
+
+<h5>As a returning visitor,  I want to make reviews on products I have purchased.</h5>
+
+<ul>
+    <li>If the user clicks on the product, they want to review and clicks on the Make Review button In the reviews section, they will be redirected to a review form they can fill out.</li>
+</ul>
+
+<h5>As a returning visitor, I want to be able to reset my password if I have forgotten it </h5>
+
+<ul>
+    <li>When a user is logging in, there is a link called "Forgot Password?" when clicked the user is redirected to a page called Password Reset which allows the user to reset their password by entering their email address</li>
+</ul>
+
+<h5>As a returning visitor, I want to be able to update my delivery information</h5>
+
+<ul>
+    <li>When a user is logged in if they go to their profile, there is a form showing their current default delivery address. They can change whatever they need to change and press the Update Information button to update it.</li>
+</ul>
+
+<h4>Site Owner Goals:</h4>
+
+<h5>As the site owner,  I want to be able to add new products to the site</h5>
+
+<ul>
+    <li>When the superuser is logged in the My Account icon when clicked will show three options: Product Management, My Profile, Log Out <br> When Product Management is clicked, the user will be redirected to a page where they can add a product by filling a form with the following: Category, SKU, Name, Description Title, Description, Has Sizes, How to use, Price, Rating and Image URL the user also has the option to select an image from there computer by clicking on the select image button. 
+    </li>
+</ul>
+
+<h5>As the site owner, I want to be able to edit products currently on the site</h5>
+
+<ul>
+    <li>When the superuser is logged in. If they click on the products page they, unlike normal users, will have two buttons near the rating of each product one called 'Edit' and the other called 'Delete'.  Once Edit is clicked the user is redirected to a page called 'Edit a Product' where there is a form pre-filled with all the products information, the user can edit whatever they want then press the Update Product button. 
+    </li>
+</ul>
+
+<h5>As the site owner,  I want to be able to delete products currently on the site</h5>
+
+<ul>
+    <li>When the superuser is logged in, if they click on the products page they, unlike normal users, will have two buttons near the rating of each product one called 'Edit' and the other called 'Delete'.  Once Edit is clicked the user is redirected to a page called 'Edit a Product' where there is a form pre-filled with all the products information, the user can edit whatever they want then press the Update Product button. 
+    </li>
 </ul>
