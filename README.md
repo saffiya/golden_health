@@ -97,4 +97,7 @@
 <ul>
     <li>The site has been designed to be fluid and never to entrap the user. There is a clean navigation bar at the top of each page; each link describes what page they will end up at. The navigation is fixed on the screen so no matter how far down the screen the user scrolls, they will never be stuck.</li>
     <li>There is a button to take the user back to the top of the page on all screens at the bottom right-hand side on the All Products, Tea and Teaware pages. So the user doesn't feel trapped when they get to the bottom of the page.</li>
+    <li>The site has a search bar so the user can easily find any product they want effortlessly.</li>
+    <li>On each products page, there is a filtering system so users can sort by: Price, Rating, Name, Category
+</li>
 </ul>
