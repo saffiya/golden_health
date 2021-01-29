@@ -125,7 +125,7 @@
     <li>When searching through the product pages, there is a sort by the filter at the top right of the screen allowing users to adapt the filter to show what they want to be displayed first whether it be sorting them by name, price, rating or category—thus allowing users to alter their search.</li>
 </ul>
 
-<h4>Returning Visitor Goals</h4>
+<h4>Returning Visitor Goals:</h4>
 
 <h5>As  a returning visitor, I want to be able to log in and out of my account easily</h5>
 
