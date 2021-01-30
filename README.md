@@ -148,7 +148,7 @@
 <h5>As a returning visitor, I want to be able to reset my password if I have forgotten it </h5>
 
 <ul>
-    <li>When a user is logging in, there is a link called "Forgot Password?" when clicked the user is redirected to a page called Password Reset which allows the user to reset their password by entering their email address</li>
+    <li>When a user is logging in, there is a link called "Forgot Password?" when clicked the user is redirected to a page called Password Reset which allows the user to reset their password by entering their email address. They will then recieve a link via email which once clicked will take them back to the site to reset the password.</li>
 </ul>
 
 <h5>As a returning visitor, I want to be able to update my delivery information</h5>
@@ -162,7 +162,7 @@
 <h5>As the site owner,  I want to be able to add new products to the site</h5>
 
 <ul>
-    <li>When the superuser is logged in the My Account icon when clicked will show three options: Product Management, My Profile, Log Out <br> When Product Management is clicked, the user will be redirected to a page where they can add a product by filling a form with the following: Category, SKU, Name, Description Title, Description, Has Sizes, How to use, Price, Rating and Image URL the user also has the option to select an image from there computer by clicking on the select image button. 
+    <li>When the superuser is logged in the My Account icon when clicked will show three options: Product Management, My Profile, Log Out <br> When Product Management is clicked, the user will be redirected to a page where they can add a product by filling out the form.
     </li>
 </ul>
 
@@ -176,15 +176,18 @@
 <h5>As the site owner,  I want to be able to delete products currently on the site</h5>
 
 <ul>
-    <li>When the superuser is logged in, if they click on the products page they, unlike normal users, will have two buttons near the rating of each product one called 'Edit' and the other called 'Delete'.  Once Edit is clicked the user is redirected to a page called 'Edit a Product' where there is a form pre-filled with all the products information, the user can edit whatever they want then press the Update Product button. 
+    <li>When the superuser is logged in, if they click on the products page they, unlike normal users, will have two buttons near the rating of each product one called 'Edit' and the other called 'Delete'.  Once Delete is clicked the item will be deleted.
     </li>
 </ul>
 
 <h2><u>Known Bugs</u></h2>
 
 <ul>
-    <li>In heroku when going to checkout, the payment section is not showing;and when going to pay an error occurs. Even though stripe is fully functioning. The stripe function has worked perfectly in the past, but at the time of writing this heroku is showing an error.</li>
+    <li>Once the order has been placed, the Email Confirmation is supposed to be sent to the user's email. However, the emails are not being sent out. I have tried to rectify this but unfortunately could not figure out why this is happening as on the two other occassions emails are supposed to be sent out they are working. </li>
 </ul>
+
+<h3>Errors That Occured</h3>
+<p>When going through my code, you will notice I have deleted my migrations and re-added them multiple times because an error was occurring on my site stopping me from checking out, so i had to remove Postgres from my project then re-add it numerous times.</p>
 
 <h2><u>Deployment</u></h2>
 <h3>Heroku</h3>
