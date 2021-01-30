@@ -186,8 +186,8 @@
     <li>Once the order has been placed, the Email Confirmation is supposed to be sent to the user's email. However, the emails are not being sent out. I have tried to rectify this but unfortunately could not figure out why this is happening as on the two other occassions emails are supposed to be sent out they are working. </li>
 </ul>
 
-<h3>Errors That Occured</h3>
-<p>When going through my code, you will notice I have deleted my migrations and re-added them multiple times because an error was occurring on my site stopping me from checking out, so i had to remove Postgres from my project then re-add it numerous times.</p>
+<h3>Errors That Occured:</h3>
+<p>When going through my code, you will notice I have deleted my migrations and re-added them multiple times because an error was occurring on my site stopping me from checking out, so i had to remove Postgres from my project then re-add it numerous times. This was a random postgres error and is no longer affecting the site.</p>
 
 <h2><u>Deployment</u></h2>
 <h3>Heroku</h3>
