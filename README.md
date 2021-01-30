@@ -18,6 +18,7 @@
     <li>As a returning visitor, I want to be able to see what i have purchased in the past</li>
     <li>As a returning visitor, I want to be able to reset my password if i have forgotten it </li>
     <li>As a returning visitor, I want to be able to update my delivery information</li>
+    <li>As a returning visitor, I want to be able to make reviews on products</li>
 </ul>
 <h4>Site Owner Goals:</h4>
 <ul>
@@ -155,6 +156,12 @@
 
 <ul>
     <li>When a user is logged in if they go to their profile, there is a form showing their current default delivery address. They can change whatever they need to change and press the Update Information button to update it.</li>
+</ul>
+
+<h5>As a returning visitor, I want to be able to make reviews on products</h5>
+
+<ul>
+    <li>Only Users who are logged in are able to make reviews. So as a returning visitor all they have to do is log in to make a review.</li>
 </ul>
 
 <h4>Site Owner Goals:</h4>
