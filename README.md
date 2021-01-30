@@ -16,7 +16,6 @@
 <h4>Returning Visitor Goals:</h4>
 <ul>
     <li>As a returning visitor, I want to be able to see what i have purchased in the past</li>
-    <li>As a returning visitor, I want to be able to see what i have purchased in the past </li>
     <li>As a returning visitor, I want to be able to reset my password if i have forgotten it </li>
     <li>As a returning visitor, I want to be able to update my delivery information</li>
 </ul>
@@ -34,7 +33,7 @@
 <h3>Imagery:</h3>
 <ul>
     <li>Imagery is really important because the colour scheme is so simple it allows the images to be the star of the show. When you go into the site, the first image you see is an image of a transparent mug and cup with herbal tea inside. I love this picture so much because it's bright, simple, and a perfect way of adding more colour to the site while setting the rest of its mood.</li>
-    <li>The only other images that are shown throughout the rest of the site are products. I got the products images from google using the licence free to modify, share and use or from adobe stock images that i have purchased. <li>
+    <li>The only other images that are shown throughout the rest of the site are products. I got the products images from google using the licence free to modify, share and use or from adobe stock images that i have purchased. </li>
 </ul>
 
 <h3>Wireframes:</h3>
