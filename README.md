@@ -183,7 +183,7 @@
 <h2><u>Known Bugs</u></h2>
 
 <ul>
-    <li>Once the order has been placed, the Email Confirmation is supposed to be sent to the user's email. However, the emails are not being sent out. I have tried to rectify this but unfortunately could not figure out why this is happening as on the two other occassions emails are supposed to be sent out they are working. </li>
+    <li>Once the order has been placed, the Email Confirmation is supposed to be sent to the user's email. However, the emails are not being sent out. I have investigated this but unfortunately could not figure out why this is happening as on the two other occassions emails are supposed to be sent out they are working. </li>
 </ul>
 
 <h3>Errors That Occured:</h3>
