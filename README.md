@@ -223,7 +223,7 @@
 <ul>
     <li>The tutor support team for all the help when i got stuck</li>
     <li>I looked to vlad opreas code on dream woolies for the implementation of some of the review section used in my project</li>
-    <li>My mentor for continuous helpful feedback</li>
+    <li>My mentor for continuous helpful feedback.</li>
 </ul>
 
 
