@@ -75,7 +75,7 @@
     <li>Photoshop was used to resize some images</li>
 </ul>
 <h2><u>Checkout</u></h2>
-<p>The Stripe functionality within the site is only for testing. Please use 4242 4242 4242 4242 as the card number</p>
+<p>The Stripe functionality within the site is only for testing. Please use 4242 4242 4242 4242 as the card number, 04/24 as the expiry date, 242 as the CVC and 42424 as the ZIP.</p>
 
 <h2><u>Testing</u></h2>
 <h3>Testing User Stories from User Experience (UX) Section</h3>
@@ -95,7 +95,7 @@
 
 <ul>
     <li>The site has been designed to be fluid and never to entrap the user. There is a clean navigation bar at the top of each page; each link describes what page they will end up at. The navigation is fixed on the screen so no matter how far down the screen the user scrolls, they will never be stuck.</li>
-    <li>There is a button to take the user back to the top of the page on all screens at the bottom right-hand side on the All Products, Tea and Teaware pages. So the user doesn't feel trapped when they get to the bottom of the page.</li>
+    <li>There is a button to take the user back to the top of the page on all screens at the bottom right-hand side on the All Products, Tea and Teaware pages. So the user doesn't feel trapped when they get to the bottom of the page. On smaller screens the button also appears in checkout.</li>
     <li>The site has a search bar so the user can easily find any product they want effortlessly.</li>
     <li>On each products page, there is a filtering system so users can sort by: Price, Rating, Name, Category</li>
 </ul>
@@ -104,7 +104,7 @@
 
 <ul>
     <li>By clicking on the My Account icon, users can register or log in </li>
-    <li>The user is easily able to register an account by simply filling in the form which asks for their email, username and password</li>
+    <li>The user is easily able to register an account by simply filling in the form which asks for their email, username and password. Once the form has been filled out they will recieve a verification email. Once they have clicked the link to verify their account, there profile will be up and running.</li>
     <li>Once the user is logged in the My Account icon changes to give the user the ability to view their profile or logout. Once logout is clicked to verify the user does indeed want to logout they are taken to a page which allows them to cancel and go back or press sign out which will log them out and return the user to the home page</li>
 </ul>
 
