@@ -3,8 +3,6 @@
 
 <h4>This website is orientated on healthy herbal teas that help the immune system. The site is designed to be fully responsive and accessible on a wide range of devices, making it easy to navigate for users. The site has a fully integrated payment system using stripe test mode (please read the checkout section of this read me for more information before testing it out)</h4>
 
-<img src="">
-
 <h2><u>User Experience (UX)</u></h4>
 <h3>User Stories:</h4>
 <h4>First-time Visitor Goals:</h5>
@@ -182,3 +180,50 @@
     <li>When the superuser is logged in, if they click on the products page they, unlike normal users, will have two buttons near the rating of each product one called 'Edit' and the other called 'Delete'.  Once Edit is clicked the user is redirected to a page called 'Edit a Product' where there is a form pre-filled with all the products information, the user can edit whatever they want then press the Update Product button. 
     </li>
 </ul>
+
+<h2><u>Known Bugs</u></h2>
+
+<ul>
+    <li>In heroku when going to checkout, the payment section is not showing;and when going to pay an error occurs. Even though stripe is fully functioning. The stripe function has worked perfectly in the past, but at the time of writing this heroku is showing an error.</li>
+</ul>
+
+<h2><u>Deployment</u></h2>
+<h3>Heroku</h3>
+<p>The project was developed using Gitpod, commited to git and pushed to Github. My GitHub is linked with Heroku, so anything i pushed to GitHub automatically got deployed to Heroku. I used AWS S3 as storage. When i pushed my code to Heroku i had to make sure all my static files were in my storage AWS S3 as otherwise none of my images or CSS would show. </p>
+
+<h3>Making a Local Clone</h3>
+<ul>
+    <li>Log in to Githun and locate the GitHub Repository</li>
+    <li>Under the repository name (golden_health), click the "Clone or download"</li>
+    <li>To clone the repository using HTTPS, under "Clone with HTTPS" copy the link.</li>
+    <li>In your local IDE open Git Bash</li>
+    <li>Change the current working directory to the location where you want the cloned directory to be made</li>
+    <li>Type git clone, and then paste the URL you copied from the clone in the HTTP's section <br>
+    git clone https://github.com/saffiya/golden_health.git
+    </li>
+    <li>Press Enter. Your local clone will be created</li>
+</ul>
+<a href="https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository">Click here for more information on the above process </a>
+
+<h2><u>Credits</u></h2>
+<h3>Code</h3>
+<ul>
+    <li>Bootstrap is used throughout the project to make the site more responsive</li>
+    <li>Balsamiq is my favourite site for making wireframes and is the site i used for this projects wireframes</li>
+    <li>AWS S3 is used for storage </li>
+    <li>Code institute full stack development videos were a big help in the development of this project</li>
+    <li>Font Awesome was used for icons</li>
+    <li>Google Fonts was used for the fonts used throughout the site</li>
+    <li>For help in figuring out the layout of this read me i followed the Code-institute-Solutions sample README</li>
+</ul>
+<h3>Media</h3>
+<p>I used Adobe Stock to but some images used in the site. I also got images from google using the free to use and modify license and i also got some from freepik.</p>
+
+<h3>Acknowledgements</h3>
+<ul>
+    <li>The tutor support team for all the help when i got stuck</li>
+    <li>I looked to vlad opreas code on dream woolies for the implementation of some of the review section used in my project</li>
+    <li>My mentor for continuous helpful feedback</li>
+</ul>
+
+
